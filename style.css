@@ -55,7 +55,7 @@ body {
 
 .slider-item-3 {
   height: 600px;
-  width: 430px;
+  width: 400px;
   z-index: 2;
   left: 50%;
   transform: translateX(-50%);
@@ -100,4 +100,40 @@ body {
 
 .slider-controls button:hover {
   color: rgb(156, 151, 151);
+}
+
+@media (max-width: 675px) {
+  .slider-item {
+    height: 430x;
+    width: 250px;
+  }
+
+  .slider-item-2,
+  .slider-item-4 {
+    height: 500px;
+    width: 300px;
+  }
+
+  .slider-item-3 {
+    height: 550px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 500px) {
+  .slider-item {
+    height: 380px;
+    width: 200px;
+  }
+
+  .slider-item-2,
+  .slider-item-4 {
+    height: 450px;
+    width: 250px;
+  }
+
+  .slider-item-3 {
+    height: 500px;
+    width: 300px;
+  }
 }
